@@ -1,0 +1,4 @@
+*.o
+*.a
+structcey
+tests/run_tests
