@@ -6,7 +6,7 @@ STRUCTCEY - Implementing somewhat optimized data structures in C
 | Structure          | Implementation progress | SSE2 Optimized | SSE3 Optimized | SSE4(.1, .2) Optimized | AVX(1, 2, 512) Optimized |
 |--------------------|-------------------------|----------------|----------------|------------------------|--------------------------|
 | Vec                | 100%                    | NO             | NO             | NO                     | YES                      |
-| Single linked list | 0%                      | -              | -              | -                      | -                        |
+| Single linked list | 90%                      | -              | -              | -                      | -                        |
 | Double linked list | 0%                      | -              | -              | -                      | -                        |
 | Hashtable          | 0%                      | -              | -              | -                      | -                        |
 | Hashset            | 0%                      | -              | -              | -                      | -                        |
