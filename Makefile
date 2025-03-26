@@ -1,6 +1,6 @@
 include config.mk
 
-STRUCTCEY_SOURCE_FILES = $(wildcard src/*.c)
+STRUCTCEY_SOURCE_FILES = $(wildcard src/**/*.c) $(wildcard src/*.c)
 STRUCTCEY_OBJECT_FILES = $(patsubst %.c,%.o,$(STRUCTCEY_SOURCE_FILES))
 LIBSTRUCTCEY_OBJECT_FILES = $(filter-out src/main.o,$(STRUCTCEY_OBJECT_FILES))
 

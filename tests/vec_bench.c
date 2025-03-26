@@ -2,7 +2,7 @@
 
 #include <stdint.h>
 
-#include "../src/vec.h"
+#include "../src/vec/vec.h"
 
 void vec_push_back_bench_int() {
     WORKSHY_BLACK_BOX({

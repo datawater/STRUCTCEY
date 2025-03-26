@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#include "../src/vec.h"
+#include "../src/vec/vec.h"
 
 #define ASSERT_VEC_SIZE(vec, expected_size)                                               \
     do {                                                                                  \

@@ -1,4 +1,4 @@
-#include "utils.h"
+#include "../utils.h"
 
 #if defined(SMALL_VEC) || defined(E32BIT) == 4
 #define VE_EL_SIZE_T u8

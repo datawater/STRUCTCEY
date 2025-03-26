@@ -1,4 +1,4 @@
-FORTIFY_SOURCE ?=1
+FORTIFY_SOURCE ?=0
 SANITIZE_ADDRESS ?=false
 
 CFLAGS_WARNINGS = -Wall -Wextra -pedantic -Wstrict-aliasing -Wno-pointer-arith \
@@ -40,6 +40,10 @@ else
 			ERROR_TEXT = [ERROR] Unknown profile "$(PROFILE)".
 		endif
 	endif
+endif
+
+ifneq ($(FORTIFY_SOURCE),0)
+	CFLAGS += -O
 endif
 
 ifeq ($(SANITIZE_ADDRESS),true)

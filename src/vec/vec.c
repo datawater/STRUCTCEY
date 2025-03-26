@@ -3,7 +3,7 @@
 #include <assert.h>
 #include <stdint.h>
 
-#include "utils.h"
+#include "../utils.h"
 
 #ifndef VEC_INCREASE_CONST
 #define VEC_INCREASE_CONST 1.618f

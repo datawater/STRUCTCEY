@@ -2,3 +2,4 @@
 *.a
 structcey
 tests/run_tests
+.ccls-cache/
